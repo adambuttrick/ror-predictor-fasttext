@@ -25,4 +25,4 @@ See [test.py](https://github.com/adambuttrick/ror-predictor/blob/main/test.py) f
 Prediction service was trained on a subset of affiliation strings from OpenAlex that contained ROR IDs and whose assignments could be validated. See the [OpenAlex documentation](https://docs.openalex.org/download-snapshot) for downloading their works dataset.
 
 # limitations
-Training data that could be validated was only available for 64,656 ROR IDs in the OpenAlex works dataset. See [model_ids.txt](https://github.com/adambuttrick/ror-predictor/blob/main/model_ids.txt) for a complete list of IDs that are able to be predicted. Predictions cannot be made for ROR IDs on which the service was not trained.
+Training data that could be validated was only available for 64,656 ROR IDs (~63% of total ROR IDs) in the OpenAlex works dataset. See [model_ids.txt](https://github.com/adambuttrick/ror-predictor/blob/main/model_ids.txt) for a complete list of IDs that are able to be predicted. Predictions cannot be made for ROR IDs on which the service was not trained.
