@@ -13,7 +13,7 @@ Install requirements.txt
 ````
 pip install -r requirements.txt
 ````
-Download model files from Hugging Face and place in a directory. Pass this directory to the Predictor class when creating, e.g.:
+[Download the model files from Hugging Face] (https://huggingface.co/poodledude/ror-predictor/tree/main) and place in a directory. Pass this directory to the Predictor class when creating, e.g.:
 ````
 PREDICTOR = Predictor('/Users/yourname/model_files_dir/')
 ````
