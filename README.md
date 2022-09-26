@@ -13,7 +13,10 @@ Install requirements.txt
 ````
 pip install -r requirements.txt
 ````
-Download model files from Hugging Face and place in model_files directory
+Download model files from Hugging Face and place in a directory. Pass this directory to the Predictor class when creating, e.g.:
+````
+PREDICTOR = Predictor('/Users/yourname/model_files_dir/')
+````
 
 # usage
 See test.py for an example. Essentially, create an instance of the predictor class and feed it an affiliation string and prediction confidence level. In testing, 0.85 was found to be a good threshold for returning a decent amount of accurate prediction (75-80% predicted at 85-90% accuracy).
