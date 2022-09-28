@@ -1,7 +1,7 @@
 # ror-predictor
 ROR prediction service, trained using fastText
 
-# setup
+## setup
 Install fastText:
 ````
 git clone https://github.com/facebookresearch/fastText.git
@@ -18,10 +18,10 @@ pip install -r requirements.txt
 PREDICTOR = Predictor('/Users/yourname/model_files_dir/')
 ````
 
-# usage
+## usage
 See [test.py](https://github.com/adambuttrick/ror-predictor/blob/main/test.py) for an example and [test_data](https://github.com/adambuttrick/ror-predictor/tree/main/test_data) for sample datasets. Create an instance of the predictor class and feed it an affiliation string and prediction confidence level. In testing, 0.85 was found to be a good good threshold for returning a sufficient amount of accurate predictions (75-80% predicted at 85-90% accuracy).
 
-# training
+## training
 Prediction service was trained on a subset of affiliation strings from OpenAlex that contained ROR IDs and whose assignments could be validated. See the [OpenAlex documentation](https://docs.openalex.org/download-snapshot) for downloading their works dataset.
 
 # limitations
