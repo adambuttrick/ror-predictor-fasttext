@@ -1,5 +1,5 @@
 # ror-predictor
-ROR prediction service, trained using fastText
+ROR prediction service, trained with fastText
 
 ## setup
 Install fastText:
