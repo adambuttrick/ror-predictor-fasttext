@@ -1,4 +1,4 @@
-# ror-predictor
+# ror-predictor-fasttext
 ROR prediction service, trained with fastText
 
 ## setup
