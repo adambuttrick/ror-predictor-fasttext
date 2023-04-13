@@ -1,0 +1,1 @@
+fasttext supervised -input affiliations.train -output model -lr 0.1 -epoch 100 -wordNgrams 2 -bucket 200000 -dim 50 -loss hs
